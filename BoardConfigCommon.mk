@@ -112,8 +112,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8939
 # Keymaster
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
-# Lights
-TARGET_PROVIDES_LIBLIGHT := true
 
 # Lineage Hardware
 BOARD_HARDWARE_CLASS += $(COMMON_PATH)/lineagehw
